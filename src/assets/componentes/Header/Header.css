@@ -1,0 +1,22 @@
+.header__bg{
+  background-color: #151515;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.header__container{
+  max-width: 1110px;
+  margin: 0 auto ;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 39px;
+}
+
+@media (max-width:767px){
+  .header__container{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+  }
+}

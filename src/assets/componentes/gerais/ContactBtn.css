@@ -1,0 +1,18 @@
+.contact-btn{
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  line-height: 1.625;
+  font-weight: 700;
+  letter-spacing: 2.29px;
+  padding: 0 0px 10px;
+   background-color: transparent;
+   border: none;
+   border-bottom: 2px solid #4EE1A0;
+   cursor: pointer;
+   color: #fff;
+   transition: all .3s;
+ }
+ 
+ .contact-btn:hover{
+   color: #4EE1A0;
+ }

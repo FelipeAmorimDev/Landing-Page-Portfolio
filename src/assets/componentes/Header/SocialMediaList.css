@@ -1,0 +1,14 @@
+.header__social-list{
+  display: flex;
+  gap: 32px;
+  position: relative;
+  z-index: 1;
+  margin-right: 24.51px;
+}
+
+@media (max-width:767px){
+  .header__social-list{
+    gap: 25px;
+    margin: 0;
+  }
+}

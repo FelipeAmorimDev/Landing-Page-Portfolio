@@ -1,0 +1,92 @@
+.welcome__bg{
+  background-color: #151515;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.welcome__container{
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-top: 127px;
+  display: flex;
+  position: relative;
+  padding-bottom: 202px;
+}
+
+.welcome__description h1{
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+  letter-spacing: -2.5px;
+  color: #fff;
+  margin-bottom: 43px;
+  position: relative;
+  z-index: 1;
+  max-width: 13ch;
+  line-height: 1;
+}
+
+.welcome__description p{
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
+  line-height: 1.555;
+  color: #D9D9D9;
+  margin-bottom: 66px;
+  max-width: 38ch;
+}
+
+.wordbreak{
+  display: none;
+}
+
+@media(max-width:1000px){
+  .welcome__description h1{
+    letter-spacing: -2.05px;
+    font-size: 72px;
+    margin-bottom: 66px;
+  }
+
+  .welcome__container{
+    padding-bottom: 60px;
+    padding-top: 90px;
+  }
+
+  .welcome__description p{
+    margin-bottom: 34px;
+  }
+}
+
+@media(max-width:900px){
+  .welcome__description h1{
+    letter-spacing: -2.05px;
+    font-size: 72px;
+    max-width: 10ch;
+  }
+
+  .wordbreak{
+    display: block;
+  }
+}
+
+@media(max-width: 767px){
+  .welcome__container{
+    padding-top: 331px;
+  }
+  .wordbreak{
+    display: none;
+  }
+  .welcome__description{
+    text-align: center;
+    margin: 0 auto;
+  }
+  .welcome__description h1{
+    margin: 0 auto 20px;
+    letter-spacing: -1.14 px;
+    font-size: 40px;
+    max-width: 13ch;
+  }
+  .welcome__description p{
+    font-size: 16px;
+  }
+
+}

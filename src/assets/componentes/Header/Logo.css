@@ -1,0 +1,13 @@
+.header__logo{
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 32px;
+  letter-spacing: -0.44px;
+  font-size: 700;
+  color: #fff;
+}
+
+@media (max-width:500px){
+  .header__logo{
+    font-size: 24px;
+  }
+}

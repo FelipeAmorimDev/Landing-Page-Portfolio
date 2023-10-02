@@ -1,0 +1,29 @@
+.welcome__hero{
+  position: absolute;
+  right: 0;
+  top: -79px;
+}
+.welcome__hero img{
+  width: 445px;
+  height: 720px;
+}
+
+@media (max-width:1000px){
+  .welcome__hero img{
+    width: 322px;
+    height: 600px;
+  }
+}
+
+@media (max-width:767px){
+
+  .welcome__hero{
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+  }
+  .welcome__hero img{
+    width: 174px;
+    height: 383px;
+  }
+}
