@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './ContactSection.css'
-import ContactBtn from '../Gerais/ContactBtn'
+import ContactBtn from "../gerais/ContactBtn"
 const ContactSection = () => {
 
   function changeInputs(event) {
