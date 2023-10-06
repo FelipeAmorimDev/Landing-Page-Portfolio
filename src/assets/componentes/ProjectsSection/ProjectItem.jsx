@@ -11,7 +11,7 @@ const ProjectItem = ({ title, habilidades, alt, src }) => {
           <a href="#" className="project__link">VIEW PROJECT</a>
           <a href="#" className="project__link">VIEW CODE</a>
         </div>
-        <source media="(min-width: 768px)" srcset={src} />
+        <source media="(min-width: 768px)" srcSet={src} />
         <img src={src.replace("large", "small")} alt={alt} />
       </picture>
       <h3 className="project__title">{title}</h3>

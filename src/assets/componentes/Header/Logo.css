@@ -4,6 +4,8 @@
   letter-spacing: -0.44px;
   font-size: 700;
   color: #fff;
+  position: relative;
+  z-index: 2;
 }
 
 @media (max-width:500px){

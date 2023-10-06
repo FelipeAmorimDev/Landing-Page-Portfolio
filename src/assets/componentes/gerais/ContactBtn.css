@@ -11,6 +11,8 @@
    cursor: pointer;
    color: #fff;
    transition: all .3s;
+   z-index: 1;
+   position: relative;
  }
  
  .contact-btn:hover{

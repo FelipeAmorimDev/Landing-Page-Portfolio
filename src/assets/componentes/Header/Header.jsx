@@ -5,7 +5,7 @@ import './Header.css'
 
 function Header() {
   return (
-    <header className='header__bg'>
+    <header className='header__bg' aria-label='Header'>
       <div className='header__container'>
         <Logo name="adamkeyes" link="#" />
         <SocialMediaList />

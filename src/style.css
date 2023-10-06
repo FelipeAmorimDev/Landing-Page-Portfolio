@@ -1,6 +1,12 @@
 body{
   margin: 0;
   background-color: #151515;
+  overflow-x: hidden;
+  position: relative;
+}
+
+html,body{
+  overflow-x: hidden;
 }
 
 h1,h2,h3,p{

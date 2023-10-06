@@ -16,6 +16,7 @@ function App() {
       <ProjectsSection />
       <ContactSection />
       <Footer />
+
     </>
   )
 }

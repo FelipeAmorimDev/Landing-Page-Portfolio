@@ -1,9 +1,12 @@
 import React from 'react'
 import './ContactBtn.css'
 
-const ContactBtn = ({text}) => {
+function handleClick(event) {
+}
+
+const ContactBtn = ({ text }) => {
   return (
-    <button className='contact-btn'>{text}</button>
+    <button className='contact-btn' onClick={handleClick}>{text}</button>
   )
 }
 

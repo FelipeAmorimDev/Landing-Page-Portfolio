@@ -4,13 +4,25 @@
 .habilidades__container{
   max-width: 1110px;
   margin: 0 auto;
-  padding-top: 72px;
+  padding: 72px 0px;
 }
 
 .habilidades__list{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 58px 30px;
+  position: relative;
+}
+
+.habilidades__list::after{
+  position: absolute;
+  content: "";
+  width: 530px;
+  height: 129px;
+  display: block;
+  background-image: url("../../img/pattern-rings.svg");
+  bottom: -55px;
+  right: -404px;
 }
 
 .habilidade__title{
@@ -35,7 +47,7 @@
     grid-template-columns: 1fr 1fr;
   }
   .habilidades__container{
-    padding-top: 52px;
+   padding: 52px 0px;
   }
 }
 
@@ -56,7 +68,9 @@
       line-height: 1.625;
     }
     .habilidades__container{
-      padding-top: 40px;
-     
+      padding: 40px;
+    }
+    .habilidades__list::after{
+      bottom: -107px;
     }
 }

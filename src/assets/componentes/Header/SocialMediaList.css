@@ -2,13 +2,26 @@
   display: flex;
   gap: 32px;
   position: relative;
-  z-index: 1;
+  z-index: 2;
   margin-right: 24.51px;
+}
+.header__social-list li{
+  transition: .4s;
+}
+
+.header__social-list li:hover{
+  filter: invert(12%) sepia(1002%) saturate(670%) hue-rotate(91deg) brightness(60%) contrast(51%);
 }
 
 @media (max-width:767px){
   .header__social-list{
     gap: 25px;
     margin: 0;
+  }
+}
+
+@media (max-width:600px){
+  .header__social-list{
+    gap: 18px;
   }
 }

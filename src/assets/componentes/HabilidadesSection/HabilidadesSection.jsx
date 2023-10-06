@@ -5,11 +5,12 @@ import LineSeparate from '../gerais/LineSeparate'
 
 const HabilidadesSection = () => {
   return (
-    <section className="habilidades__bg">
+    <section className="habilidades__bg" aria-label='Habilidades Section'>
       <LineSeparate />
       <div className="habilidades__container">
         <HabilidadesList />
       </div>
+      <LineSeparate />
     </section>
   )
 }

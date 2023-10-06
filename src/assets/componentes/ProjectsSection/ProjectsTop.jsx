@@ -4,7 +4,7 @@ import ContactBtn from '../gerais/ContactBtn'
 const ProjectsTop = () => {
   return (
     <header className="projects__top">
-        <h2 className="projects__title">Projects</h2>
+        <h2 className="projects__title" id='projects__title'>Projects</h2>
         <ContactBtn text="CONTACT ME"/>
       </header>
   )

@@ -4,7 +4,7 @@ import ProjectsList from './ProjectsList'
 import './ProjectsSection.css'
 const ProjectsSection = () => {
   return (
-    <section className="projects__container">
+    <section className="projects__container" aria-labelledby='projects__title'>
       <ProjectsTop />
       <ProjectsList />
     </section>

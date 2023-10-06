@@ -7,7 +7,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <footer className="footer__bg">
+    <footer className="footer__bg" aria-label='Footer'>
       <LineSeparate />
       <div className="footer__container">
         <Logo name="adamkeyes" link="#" />

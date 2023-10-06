@@ -26,6 +26,17 @@
   line-height: 1;
 }
 
+.welcome__description h1::before{
+  content: '';
+  width: 530px;
+  height: 129px;
+  background-image: url("../../img/pattern-rings.svg");
+  display: block;
+  position: absolute;
+  left: -260px;
+  top: -60px;
+}
+
 .welcome__description p{
   font-family: 'Space Grotesk', sans-serif;
   font-size: 18px;
@@ -38,11 +49,11 @@
 .wordbreak{
   display: none;
 }
-
 @media(max-width:1000px){
   .welcome__description h1{
     letter-spacing: -2.05px;
     font-size: 72px;
+    max-width: 10ch;
     margin-bottom: 66px;
   }
 
@@ -53,14 +64,6 @@
 
   .welcome__description p{
     margin-bottom: 34px;
-  }
-}
-
-@media(max-width:900px){
-  .welcome__description h1{
-    letter-spacing: -2.05px;
-    font-size: 72px;
-    max-width: 10ch;
   }
 
   .wordbreak{
@@ -88,5 +91,12 @@
   .welcome__description p{
     font-size: 16px;
   }
+
+  .welcome__description h1::before{
+   top: -280px;
+   left: -360px;
+   z-index: -1;
+  }
+  
 
 }

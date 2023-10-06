@@ -8,11 +8,28 @@
   height: 720px;
 }
 
+.welcome__hero::before{
+  position: absolute;
+  content: "";
+  width: 129px;
+  height: 129px;
+  display: block;
+  background-image: url("../../img/pattern-circle.svg");
+  bottom: 70px;
+  left: -64px;
+}
+
 @media (max-width:1000px){
   .welcome__hero img{
     width: 322px;
     height: 600px;
   }
+  .welcome__hero::before{
+    bottom: 0px;
+    left: unset;
+    right: -64px;
+  }
+  
 }
 
 @media (max-width:767px){
@@ -21,9 +38,24 @@
     position: absolute;
     right: 50%;
     transform: translateX(50%);
+    z-index: 1;
   }
   .welcome__hero img{
     width: 174px;
     height: 383px;
+  }
+  .welcome__hero::before{
+    display: none;
+  }
+  
+  
+}
+
+@media(max-width:450px){
+  .welcome__hero::before{
+    display: block;
+    bottom: 0px;
+    left: unset;
+    right: -160px;
   }
 }

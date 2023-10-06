@@ -33,6 +33,7 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
+  position: relative;
 }
 
 .contact__form input,.contact__form textarea{
@@ -62,7 +63,25 @@
 .contato{
   display: none;
 }
+.warninginput,.warninginputname{
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: -0.17px;
+  margin: 0;
+  padding: 0;
+  right: 0;
+  top: 122px;
+  position: absolute;
+  color: #FF6F5B;
+}
 
+.warninginputname{
+  top: 48px;
+}
+.contact__form .email-error{
+  border-color: #FF6F5B;
+}
 @media (max-width:1000px){
   .contact__title{
     font-size: 72px;
@@ -91,5 +110,9 @@
   .contact__text{
     font-size: 16px;
     line-height: 1,625;
+  }
+  .contact__form{
+    min-width: 100%;
+    margin: 0 auto;
   }
 }

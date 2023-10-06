@@ -144,6 +144,20 @@
   .projects__top{
     margin-bottom: 40px;
   }
+  .project__overlayer{
+    visibility:visible;
+    opacity: 1;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    gap:30px;
+    background-color: transparent;
+    bottom: -135px;
+  }
+
+  .project__habilidades{
+    margin-bottom: 38px;
+  }
 }
 
 @media (max-width:600px){
