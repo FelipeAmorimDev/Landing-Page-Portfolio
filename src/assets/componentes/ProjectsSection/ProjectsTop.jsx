@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactBtn from '../Gerais/ContactBtn'
+import ContactBtn from '../gerais/ContactBtn'
 
 const ProjectsTop = () => {
   return (

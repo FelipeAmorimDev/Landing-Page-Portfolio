@@ -10,19 +10,6 @@
   padding-bottom: 92px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  position: relative;
-}
-
-.contact__description::after{
-  content: '';
-  width: 530px;
-  height: 129px;
-  background-image: url("./images/pattern-rings.svg");
-  display: block;
-  position: absolute;
-  left: -370px;
-  margin-top: 35px;
-  
 }
 
 .contact__title{
@@ -114,10 +101,6 @@
     min-width: 445px;
     margin: 0 auto;
   }
-  
-.contact__description::after{
-  bottom: 27px;
-}
 }
 
 @media (max-width:500px){
@@ -131,8 +114,5 @@
   .contact__form{
     min-width: 100%;
     margin: 0 auto;
-  }
-  .contact__description::after{
-   display: none;
   }
 }
